@@ -176,13 +176,14 @@
                     <form action="https://formsubmit.co/contactolyad@gmail.com" method="POST" class="contact__form">
                         <input type="hidden" name="_subject" value="New Email mf!">
                         <input type="hidden" name="_next" value="https://olyadmulugeta.me/index.html">
+                        <input type="hidden" name="_captcha" value="false">
         
                         <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
+                            <input type="text"  name="name" placeholder="Name" class="contact__input" required>
+                            <input type="email"  name="name" placeholder="Email" class="contact__input" required>
                         </div>
     
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <textarea type="text" name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
 
                         <button type="submit" class="contact__button">Submit</button>
                     </form>
