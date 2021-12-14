@@ -352,7 +352,10 @@ img{
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
-
+.in{
+    height:20px;
+}
+    
 /* ===== FOOTER=====*/
 .footer{
     background-color: var(--dark-color);
